@@ -1,1 +1,11 @@
-%h3 Home
+%h1 GPU as a Service (GaaS)
+
+%hr
+
+.row
+  .span
+    - unless user_signed_in?
+      = link_to 'GaaS Up', sign_up_path, class: 'btn btn-large btn-primary'
+    - else
+      %h2 Your API Key
+      %pre= current_user.api_key

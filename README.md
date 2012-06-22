@@ -14,7 +14,7 @@ See presentation at:
 ```shell
 $ curl -X POST \
   -H 'Accept: application/vnd.gaas.v1' \
-  -H 'Content-Type: application/json'
+  -H 'Content-Type: application/json' \
   -d '{ "data": { "v1":[23.12,2.23,30], "v2": [3.232,2.23,1.334] } }' \
   https://gaas-server.com/api/vector_add
 ```

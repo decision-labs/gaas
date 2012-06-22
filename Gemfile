@@ -15,4 +15,5 @@ gem 'ffi' # Ruby interface for CUDA libs
 gem 'yard'
 gem 'sgc-ruby-cuda', git: 'https://github.com/kashif/sgc-ruby-cuda.git', require: 'rubycuda', branch: 'gemspec'
 gem 'simple_form'
+gem 'unicorn'
 

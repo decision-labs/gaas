@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/kashif/sgc-ruby-cuda.git
+  revision: 0bd05e797504e92025ba3b6e3caa559d0c4283b7
+  branch: gemspec
+  specs:
+    sgc-ruby-cuda (0.1.1)
+      ffi
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -115,6 +123,7 @@ GEM
       multi_json (~> 1.3)
     warden (1.2.1)
       rack (>= 1.0)
+    yard (0.8.2.1)
 
 PLATFORMS
   ruby
@@ -129,5 +138,7 @@ DEPENDENCIES
   jquery-rails
   rails (= 3.2.6)
   sass-rails (~> 3.2.3)
+  sgc-ruby-cuda!
   sqlite3
   uglifier (>= 1.0.3)
+  yard

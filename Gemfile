@@ -12,3 +12,6 @@ gem "haml-rails", ">= 0.3.4", :group => :development
 gem "bootstrap-sass", ">= 2.0.3"
 gem 'devise'
 gem 'ffi' # Ruby interface for CUDA libs
+gem 'yard'
+gem 'sgc-ruby-cuda', git: 'https://github.com/kashif/sgc-ruby-cuda.git', require: 'rubycuda', branch: 'gemspec'
+

@@ -1,12 +1,12 @@
 Gaas
 ========================
 
-# API Doc
-
 # Introduction to GaaS
 
 GaaS is GPU as a Service running on Amazon EC2 GPU instances.
 See presentation at:
+
+# API Doc
 
 ## Vector Add
 

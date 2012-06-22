@@ -29,9 +29,9 @@ module VectorAdd
     memcpy_htod(db, hb, nbytes)
     
     # Invoke vadd kernel.
-    nthreads_per_block = 256
+    nthreads_per_block = 512
     block_dim = Dim3.new(nthreads_per_block)
-    grid_dim = Dim3.new((n + nthreads_per_block - 1) / nthreads_per_block)
+    grid_dim = Dim3.new(128)
     CudaFunction.configure(block_dim, grid_dim)
     CudaFunction.setup(da, db, dc, n)
     f = CudaFunction.new("vadd")

@@ -37,8 +37,10 @@ extern "C" {
     __global__ void vadd(const float* a, const float* b, float* c, int n)
     {
         int i = blockDim.x * blockIdx.x + threadIdx.x;
-        if (i < n)
-            c[i] = a[i] + b[i];
+        while(i < n){
+          c[i] = a[i] + b[i];
+          i += blockDim.x * gridDim.x;
+        }
     }
 }
 EOS

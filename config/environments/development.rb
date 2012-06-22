@@ -34,4 +34,6 @@ Gaas::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  config.action_mailer.default_url_options = { :host => 'gaas.192.168.0.123.xip.io' }
 end

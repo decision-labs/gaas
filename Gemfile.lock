@@ -47,6 +47,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    ffi (1.0.11)
     haml (3.1.6)
     haml-rails (0.3.4)
       actionpack (~> 3.0)
@@ -122,6 +123,7 @@ DEPENDENCIES
   bootstrap-sass (>= 2.0.3)
   coffee-rails (~> 3.2.1)
   devise
+  ffi
   haml (>= 3.1.6)
   haml-rails (>= 0.3.4)
   jquery-rails

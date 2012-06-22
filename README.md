@@ -33,8 +33,7 @@ On Success: 201 Created
 
 # dev server:
 
-http://gaas.192.168.0.123.xip.io/
-
+http://192.168.0.123:3000/api/vector_add
 
 
 ________________________

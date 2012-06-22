@@ -1,13 +1,16 @@
-%h1 GPU as a Service (GaaS)
-
-%hr
 
 .row
-  .span6
-    - unless user_signed_in?
-      = link_to 'GaaS Up', sign_up_path, class: 'btn btn-large btn-success'
-      = link_to 'GaaS In', sign_in_path, class: 'btn btn-large btn-primary'
-    - else
+  - unless user_signed_in?
+    .span4.landing-text
+      %h1 GaaS up!
+      %p Its time to start finding a way around Moore's Law. Your Algorithm deserves it!
+      %p.landing-actions
+        = link_to 'GaaS Up', sign_up_path, class: 'btn btn-large btn-success'
+        = link_to 'GaaS In', sign_in_path, class: 'btn btn-large btn-primary'
+    .span8.landing-screenshot
+      = image_tag("logo_big.png", class: 'screengrab')
+  - else
+    .span6
       %h2 Your API Key
       %pre= current_user.api_key
 

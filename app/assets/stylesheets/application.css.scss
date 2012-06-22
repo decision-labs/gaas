@@ -13,15 +13,15 @@
 */
 
 .content {
-  background-color: #eee;
-  padding: 20px;
-  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
-  -webkit-border-radius: 0 0 6px 6px;
-  -moz-border-radius: 0 0 6px 6px;
-  border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  /*background-color: #eee;*/
+  /*padding: 20px;*/
+  /*margin: 0 -20px; [> negative indent the amount of the padding to maintain the grid system <]*/
+  /*-webkit-border-radius: 0 0 6px 6px;*/
+  /*-moz-border-radius: 0 0 6px 6px;*/
+  /*border-radius: 0 0 6px 6px;*/
+  /*-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);*/
+  /*-moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);*/
+  /*box-shadow: 0 1px 2px rgba(0,0,0,.15);*/
 }
 
 .brand-logo {
@@ -32,3 +32,29 @@
 #signin-dropdown {
   padding: 10px;
 }
+
+.landing-text {
+  h1 {
+    margin-bottom: .65em;
+
+    font-size: 36px;	
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+
+  p {
+    font-size: 18px;
+    .landing-actions {
+      margin-top: 2em;
+      .btn {
+        padding: 12px 19px;
+        margin-right: .5em;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+  
+

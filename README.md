@@ -40,3 +40,5 @@ http://192.168.0.123:3000/api/vector_add
 ________________________
 
 License
+
+This content is released under the MIT License.
